@@ -1,3 +1,9 @@
+.color1 { color: #121D26; }
+.color2 { color: #394D59; }
+.color3 { color: #4D6873; }
+.color4 { color: #C1D4D9; }
+.color5 { color: #0D0D0D; }
+
 html,body{
     position: absolute;
     width: 100vw;
@@ -12,8 +18,8 @@ h1{
     font: 60px Impact, fantasy;
     text-align: center;
     position: relative;
-    
-    
+    color:#fff;
+    background-color: #121D26;
 }
 
 
@@ -26,7 +32,7 @@ h1{
 
 header{
     position:relative;
-    background-color:white;
+    background-color:#121D26;
     display: flex;
     width: 100vw;
     height:54px;
@@ -45,11 +51,20 @@ header ul li{
 header ul li a{
     font-family: Impact, fantasy;
     font-size: 20px;
-    color:#09181F;
+    color:#fff;
     transition: color 0.1s;
     cursor: pointer;
 }
 header ul li a:hover{
-    color:#11303B;
+    background-color:#11303B;
+    border: solid;
+}
 
+line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #C1D4D9;
+    margin: 0;
+    padding: 0;
 }
